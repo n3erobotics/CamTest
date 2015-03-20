@@ -133,7 +133,7 @@ int main( int argc, const char** argv )
 	    auto end = high_resolution_clock::now() ;
 	    auto ticks = duration_cast<microseconds>(end-begin) ;
 
-	    std::cout << "It took me " << ticks.count() << " microseconds.\n" ;
+	    std::cout << "Capture frame time = " << ticks.count() << " us.\n" ;
 
             frame = iplImg;
             if( frame.empty() )
