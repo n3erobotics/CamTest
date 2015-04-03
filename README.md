@@ -1,5 +1,5 @@
-# UEye Camera to OpenCV
+# Camera FPS test	
 
-Test application for a capture of a frame with the IDS UEye drivers and passage to OpenCV format.
-
-To compile: g++ -std=c0xx main.cpp UEyeOpencv.cpp -o test `pkg-config --cflags --libs opencv`-lueye_api
+Test application for frame acquistion time
+ 		 
+To build execute the script: "./build_all.sh"
