@@ -1,6 +1,5 @@
-# auto
-Condução Autónoma - Teste das câmaras
+# UEye Camera to OpenCV
 
-To download use : "git clone https://github.com/n3erobotics/CamTest.git"
+Test application for a capture of a frame with the IDS UEye drivers and passage to OpenCV format.
 
-To build execute the script: "./build_all.sh"
+To compile: g++ -std=c0xx main.cpp UEyeOpencv.cpp -o test `pkg-config --cflags --libs opencv`-lueye_api
